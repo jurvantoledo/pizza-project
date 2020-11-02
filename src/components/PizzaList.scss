@@ -1,0 +1,9 @@
+.PizzaList {
+  .pizzas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 -0.5rem;
+    padding: 0;
+  }
+}
