@@ -1,9 +1,12 @@
 import "./App.css";
+import PizzaList from "./components/PizzaList";
+import AddPizzaForm from "./components/AddPizzaForm";
 
 function App() {
   return (
     <div className="App">
-      <p>Hello</p>
+      <PizzaList />
+      <AddPizzaForm />
     </div>
   );
 }
